@@ -1,0 +1,18 @@
+/** Colors */
+$color-primary:           #0e1111;
+$color-primary-light:     lighten($color-primary, 10%);
+$color-primary-dark:      darken($color-primary, 20%);
+$color-red:               #d8000c;
+$color-green:             #7d7;
+$color-blue:              #1273de;
+$color-blue-dark:         darken(#1273de, 10%);
+$color-blue-light:        lighten($color-blue, 20%);
+
+/** Box Model  */
+$spacer:                  5rem;
+
+/** Fonts  */
+$font-family:            "Montserrat", Arial, sans-serif, Helvetica;
+$font-small:             1.1rem;
+
+$border-radius:          3px;

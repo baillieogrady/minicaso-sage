@@ -1,0 +1,22 @@
+.banner {
+  background-color: #1273de;
+  color: #fff;
+  text-align: center;
+  font-weight: bold;
+  padding: 2rem 0;
+  position: sticky;
+  font-size: 1.3rem;
+  top: 0;
+
+  @include media-breakpoint-up(sm) {
+    font-size: 1.5rem;
+  }
+
+  &__cross {
+    position: absolute;
+    right: 20px;
+    cursor: pointer;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+}

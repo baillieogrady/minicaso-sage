@@ -1,0 +1,111 @@
+.footer {
+  background-color: $color-primary;
+  color: #fff;
+  font-weight: bold;
+  padding: 2rem 0;
+
+  p {
+    margin: 0;
+  }
+
+  &__box {
+    .wpcf7-response-output {
+      margin: 0;
+      border: none;
+      padding: 0;
+
+      .wpcf7-mail-sent-ok {
+        color: $color-green;
+      }
+    }
+
+    .wpcf7-not-valid-tip {
+      font-size: 1.2rem;
+      margin-top: 0.5rem;
+    }
+
+    form {
+      max-height: 45px;
+    }
+  }
+
+  &__heading {
+    font-size: 1.3rem;
+    text-transform: uppercase;
+    margin-bottom: 2rem !important;
+    margin-top: 2rem !important;
+    color: #c0c0c0;
+  }
+
+  &__copy {
+    color: #c0c0c0;
+    font-size: 1.3rem;
+  }
+
+  &__links {
+    ul {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+
+      li {
+        margin-bottom: 1rem;
+
+        a {
+          text-decoration: none;
+          color: #fff;
+          padding-bottom: 3px;
+          font-size: 1.3rem !important;
+          transition: color 0.2s ease;
+
+          &:hover {
+            color: $color-blue-light;
+          }
+        }
+      }
+    }
+  }
+
+  &__icon {
+    display: inline-block;
+    margin-top: 2rem;
+
+    svg {
+      height: 25px;
+      width: 25px;
+
+      path {
+        transition: all 0.2s ease;
+      }
+    }
+
+    &:hover {
+      svg path {
+        fill: $color-blue-light;
+      }
+    }
+  }
+
+  &__payments {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+
+    .footer__badge {
+      display: inline-block;
+      height: 30px;
+
+      &:not(:first-child) {
+        margin-left: 5px;
+      }
+
+      svg {
+        height: 30px;
+      }
+    }
+  }
+
+  &__bottom {
+    margin-top: 2.5rem;
+  }
+}

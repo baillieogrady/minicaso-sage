@@ -1,0 +1,61 @@
+.newsletter {
+  display: flex;
+
+  > div {
+    width: 70%;
+
+    @include media-breakpoint-up(lg) {
+      width: 75%;
+    }
+
+    > span {
+      display: inline-block;
+      width: 100%;
+    }
+  }
+
+  > p {
+    width: 30%;
+
+    @include media-breakpoint-up(lg) {
+      width: 25%;
+    }
+  }
+
+  input[type="email"] {
+    height: 45px !important;
+    padding: 0 10px;
+    max-width: 250px;
+    border: none;
+    border-top-left-radius: $border-radius;
+    border-bottom-left-radius: $border-radius;
+    width: 100%;
+    min-width: 100%;
+    font-size: 1.2rem !important;
+  }
+
+  input[type="submit"] {
+    cursor: pointer;
+    background-color: $color-blue;
+    color: #fff;
+    width: 100% !important;
+    max-width: 100%;
+    min-width: auto;
+    height: 45px;
+    box-sizing: border-box;
+    border-radius: 0 !important;
+    border-top-right-radius: $border-radius !important;
+    border-bottom-right-radius: $border-radius !important;
+    font-size: 1.1rem !important;
+    border: 2px solid $color-blue;
+
+    &:hover {
+      background-color: lighten($color-blue, 10%) !important;
+      border: 2px solid lighten($color-blue, 10%) !important;
+    }
+  }
+
+  .wpcf7-validation-errors {
+    color: $color-red;
+  }
+}

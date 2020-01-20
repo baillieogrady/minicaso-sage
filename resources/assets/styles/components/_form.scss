@@ -1,0 +1,95 @@
+.form {
+  @include media-breakpoint-up(lg) {
+    margin-bottom: 18rem;
+    margin-top: 0;
+  }
+
+  .wpcf7-form {
+    text-align: left;
+
+    p {
+      margin: 0;
+      width: 100%;
+
+      @include media-breakpoint-up(lg) {
+        width: auto;
+      }
+
+      .ajax-loader {
+        display: none;
+      }
+    }
+
+    textarea {
+      width: 100%;
+      border-radius: $border-radius;
+      background-color: transparent;
+      -webkit-appearance: none;
+      border: 1px solid $color-primary;
+      padding: 10px;
+      transition: border 0.2s ease;
+
+      &:focus {
+        border: 1px solid $color-primary;
+      }
+    }
+
+    label {
+      display: inline-block;
+      // font-size: $font-small;
+      letter-spacing: 0.08em;
+      margin-bottom: 1rem;
+      width: 100%;
+    }
+
+    input {
+      width: 100%;
+      border-radius: $border-radius;
+      background-color: transparent;
+      -webkit-appearance: none;
+      border: 1px solid $color-primary;
+      padding: 10px;
+      height: 45px;
+      transition: border 0.2s ease;
+
+      &:focus {
+        border: 3px solid $color-primary;
+      }
+    }
+
+    input[type="submit"] {
+      cursor: pointer;
+      margin-top: 1rem;
+      font-family: $font-family;
+      transition: all 0.2s ease;
+      background-color: $color-primary;
+      color: #fff;
+      height: 55px;
+      font-size: 1.5rem !important;
+
+      &:hover {
+        background-color: lighten($color-primary, 10%);
+      }
+
+      @include media-breakpoint-up(lg) {
+        margin-top: 0;
+      }
+    }
+
+    .wpcf7-response-output {
+      border: none;
+      text-align: center;
+      font-weight: bold;
+      font-size: 2rem;
+    }
+
+    .wpcf7-validation-errors,
+    .wpcf7-not-valid-tip {
+      color: $color-red;
+    }
+
+    .wpcf7-mail-sent-ok {
+      color: $color-green;
+    }
+  }
+}

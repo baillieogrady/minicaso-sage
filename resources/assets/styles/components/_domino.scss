@@ -1,0 +1,22 @@
+.domino {
+  position: relative;
+
+  &__image {
+    display: block;
+    width: 150px;
+    margin: $spacer*2 auto $spacer auto;
+
+    @include media-breakpoint-up(lg) {
+      margin: 0 auto;
+      width: 250px;
+    }
+  }
+
+  .btn {
+    display: block;
+
+    @include media-breakpoint-up(lg) {
+      display: inline-block;
+    }
+  }
+}

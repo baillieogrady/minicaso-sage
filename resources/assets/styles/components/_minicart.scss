@@ -1,0 +1,35 @@
+// .minicart {
+//   position: fixed;
+//   transition: transform 0.2s ease;
+//   background-color: #fff;
+//   padding: $spacer;
+//   right: 0;
+//   top: 0;
+//   z-index: 1001;
+//   height: 100vh;
+//   transform: translateX(100%);
+//   box-shadow: 0 0 10px -8px $color-primary;
+//   min-width: 300px;
+
+//   svg {
+//     // position: absolute;
+//     right: 70px;
+//     top: 20px;
+//     height: 30px;
+//     width: 30px;
+//     cursor: pointer;
+//   }
+// }
+.woo_amc_center.woo_amc_flex {
+  a {
+    text-decoration: none;
+  }
+}
+
+.woo_amc_head {
+  height: 70px !important;
+}
+
+.woo_amc_items_scroll.ps {
+  margin-top: 4rem;
+}
