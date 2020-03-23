@@ -1,7 +1,8 @@
 # Minicaso sage
+[![devDependency Status](https://img.shields.io/david/dev/roots/sage.svg?style=flat-square)](https://david-dm.org/baillieogrady/mincaso-sage#info=devDependencies)
 
 ## What is Minicaso sage?
-Minicaso sage is a custom WordPress theme utilising the Roots Sage 9 starter theme & ACF Pro.
+Minicaso-sage is a custom WordPress theme built on the [Sage](https://github.com/roots/sage) starter theme.
 
 ### Example
 [minicaso.com](https://minicaso.com)
@@ -15,6 +16,14 @@ Make sure all dependencies have been installed before moving on:
 * [Composer](https://getcomposer.org/download/)
 * [Node.js](http://nodejs.org/) >= 8.0.0
 * [Yarn](https://yarnpkg.com/en/docs/install)
+
+Plugins:
+
+* [ACF Pro](https://www.advancedcustomfields.com/pro/)
+* [WooCommerce](https://en-gb.wordpress.org/plugins/woocommerce/)
+* [Classic Editor](https://en-gb.wordpress.org/plugins/classic-editor/)
+* [Contact form 7](https://wordpress.org/plugins/contact-form-7/)
+* [Qty Increment Buttons for WooCommerce](https://wordpress.org/plugins/qty-increment-buttons-for-woocommerce/)
 
 ## Installation
 
@@ -45,10 +54,3 @@ $ git clone https://github.com/baillieogrady/minicaso-sage
 ```
 $ git clone https://github.com/baillieogrady/minicaso-sage
 ```
-
-## Plugins
-- [ACF Pro](https://www.advancedcustomfields.com/pro/)
-- [WooCommerce](https://en-gb.wordpress.org/plugins/woocommerce/)
-- [Classic Editor](https://en-gb.wordpress.org/plugins/classic-editor/)
-- [Contact form 7](https://wordpress.org/plugins/contact-form-7/)
-- [Qty Increment Buttons for WooCommerce](https://wordpress.org/plugins/qty-increment-buttons-for-woocommerce/)
