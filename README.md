@@ -2,10 +2,27 @@
 [![devDependency Status](https://img.shields.io/david/dev/roots/sage.svg?style=flat-square)](https://david-dm.org/baillieogrady/mincaso-sage#info=devDependencies)
 
 ## What is Minicaso sage?
-Minicaso-sage is a custom WordPress theme built on the [Sage](https://github.com/roots/sage) starter theme.
+Minicaso Sage is a custom WordPress theme built on the [Sage](https://github.com/roots/sage) starter theme. I utlised the ACF Pro plugin to create a page builder with the [flexible content field](https://www.youtube.com/watch?v=DL2SImhDm_I).
 
-### Example
-[minicaso.com](https://minicaso.com)
+[Demo](https://minicaso.com)
+
+## Usage
+
+[Download](http://baillieogrady.com/downloads/minicaso-sage.zip) production build and upload via WordPress.
+
+### Requirements
+
+- [ACF Pro](https://www.advancedcustomfields.com/pro/) plugin
+
+## Theme development
+
+### Installation
+
+Clone this repo into your WordPress themes directory
+
+```
+$ git clone https://github.com/baillieogrady/whale-sage
+```
 
 ### Requirements
 
@@ -16,24 +33,6 @@ Make sure all dependencies have been installed before moving on:
 * [Composer](https://getcomposer.org/download/)
 * [Node.js](http://nodejs.org/) >= 8.0.0
 * [Yarn](https://yarnpkg.com/en/docs/install)
-
-Plugins:
-
-* [ACF Pro](https://www.advancedcustomfields.com/pro/)
-* [WooCommerce](https://en-gb.wordpress.org/plugins/woocommerce/)
-* [Classic Editor](https://en-gb.wordpress.org/plugins/classic-editor/)
-* [Contact form 7](https://wordpress.org/plugins/contact-form-7/)
-* [Qty Increment Buttons for WooCommerce](https://wordpress.org/plugins/qty-increment-buttons-for-woocommerce/)
-
-## Installation
-
-Install theme into the WordPress themes directory
-
-```
-$ git clone https://github.com/baillieogrady/minicaso-sage
-```
-
-## Theme development
 
 *See full roots sage source & setup [here](https://github.com/roots/sage)*
 
@@ -48,9 +47,3 @@ $ git clone https://github.com/baillieogrady/minicaso-sage
 * `yarn start` — Compile assets when file changes are made, start Browsersync session
 * `yarn build` — Compile and optimize the files in your assets directory
 * `yarn build:production` — Compile assets for production
-
-## Contributing
-
-```
-$ git clone https://github.com/baillieogrady/minicaso-sage
-```
