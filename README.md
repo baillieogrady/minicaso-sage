@@ -10,9 +10,9 @@ Minicaso Sage is a custom WordPress theme built on the [Sage](https://github.com
 
 [Download](http://baillieogrady.com/downloads/minicaso-sage.zip) production build and upload via WordPress.
 
-### Requirements
+### Plugins required
 
-- [ACF Pro](https://www.advancedcustomfields.com/pro/) plugin
+- [ACF Pro](https://www.advancedcustomfields.com/pro/)
 
 ## Theme development
 
