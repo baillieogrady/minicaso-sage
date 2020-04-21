@@ -6,6 +6,8 @@ Minicaso Sage is a custom WordPress theme built on the [Sage](https://github.com
 
 [Demo](https://minicaso.com)
 
+## Usage
+
 ### Installation
 
 [Download](https://baillieogrady.com/downloads/cloudbudget-gulp.zip) the production built theme and upload via the WordPress theme uploader at the following url on your website:
