@@ -1,18 +1,18 @@
 # Minicaso sage
+
 [![devDependency Status](https://img.shields.io/david/dev/roots/sage.svg?style=flat-square)](https://david-dm.org/baillieogrady/mincaso-sage#info=devDependencies)
 
-## What is Minicaso sage?
 Minicaso Sage is a custom WordPress theme built on the [Sage](https://github.com/roots/sage) starter theme. I utlised the ACF Pro plugin to create a page builder with the [flexible content field](https://www.youtube.com/watch?v=DL2SImhDm_I).
 
 [Demo](https://minicaso.com)
 
-## Usage
+### Installation
 
-[Download](http://baillieogrady.com/downloads/minicaso-sage.zip) production build and upload via WordPress.
+[Download](https://baillieogrady.com/downloads/cloudbudget-gulp.zip) the production built theme and upload via the WordPress theme uploader at the following url on your website:
 
-### Plugins required
-
-- [ACF Pro](https://www.advancedcustomfields.com/pro/)
+```
+https://yourwebsite.com/wp-admin/theme-install.php
+```
 
 ## Theme development
 
