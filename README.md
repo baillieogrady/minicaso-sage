@@ -16,6 +16,13 @@ Minicaso Sage is a custom WordPress theme built on the [Sage](https://github.com
 https://yourwebsite.com/wp-admin/theme-install.php
 ```
 
+### Plugins required
+
+- [ACF Pro](https://www.advancedcustomfields.com/pro/)
+- [Contact Form 7](https://en-gb.wordpress.org/plugins/contact-form-7/)
+- [Qty Increment Buttons for WooCommerce](https://wordpress.org/plugins/qty-increment-buttons-for-woocommerce/)
+- [WooCommerce](https://en-gb.wordpress.org/plugins/woocommerce/)
+
 ## Theme development
 
 ### Installation
